@@ -1,0 +1,52 @@
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore datasets and scraped data
+data/
+*.csv
+*.tsv
+*.json
+*.xlsx
+*.xls
+
+# Ignore saved models
+models/
+*.h5
+*.pkl
+*.joblib
+*.pt
+
+# Ignore BERT embedding outputs
+embeddings/
+*.npy
+
+# Ignore log and temp files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Ignore Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environments
+env/
+venv/
+.venv/
+
+# Ignore VSCode and Jupyter configs
+.vscode/
+*.code-workspace
+.jupyter/
+*.ipynb_checkpoints/
+
+# Ignore OS/system files
+.DS_Store
+Thumbs.db
+
+# Ignore requirements lock (optional)
+poetry.lock
+Pipfile.lock
